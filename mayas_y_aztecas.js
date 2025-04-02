@@ -51,7 +51,7 @@ class Warrior{
     }
     defend(damage){
         this.life = this.life - damage;
-        console.log(`¡Defensa! Te quedan ${this.life} de vida.`);
+        console.log(`Te quedan ${this.life} de vida.`);
 
     }
 
@@ -72,16 +72,15 @@ Maya.power += 10;
 // Azteca ataca a maya. Maya defiende.
 
 let dañoMaya = Maya.power;
-console.log(`¡Maya ataca con ${dañoMaya} de poder!`);
+console.log(`Maya ataca con ${dañoMaya} de poder`);
 Azteca.defend(dañoMaya);
 
 let dañoAzteca = Azteca.power;
-console.log(`¡Azteca ataca con ${dañoAzteca} de poder!`);
+console.log(`Azteca ataca con ${dañoAzteca} de poder.`);
 Maya.defend(dañoAzteca);
 
 
-console.log("Maya:", Maya);
-console.log("Azteca:", Azteca);
+
 
 
 

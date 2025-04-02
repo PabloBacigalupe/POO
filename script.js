@@ -85,7 +85,7 @@ console.log(guion);
 
 class Estudiante extends Persona {
     constructor(nombre, edad, genero, curso, grupo) {
-        super(nombre, edad, genero); // Llama al constructor de Persona
+        super(nombre, edad, genero); // llama al constructor de persona
         this.curso = curso;
         this.grupo = grupo;
     }
